@@ -5,11 +5,48 @@
 div {
   box-sizing: border-box;
 }
+
 .list {
   padding-left: 20px;
   text-align: left;
   border-bottom: 1px solid grey;
 }
+
+.modal{
+  margin-top : 20px;
+  padding : 20px;
+  background : #eee;
+  text-align : left;
+}
+
+.modify-button {
+  background-color: #4ef845;
+  color: white; 
+  padding: 10px; 
+  border: none; 
+  cursor: pointer;  
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sort-button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px; 
+  border: none; 
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.list span {
+  cursor: pointer;
+}
+
 .black-nav {
   display: flex;
   background: #080808;
